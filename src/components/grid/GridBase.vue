@@ -12,7 +12,7 @@ export default {
   mounted() {
     this.grid = new GridDHX(this.$refs.grid, {
       columns: [
-        { minWidth: 200, id: "country", header: [{ text: "Country" }] },
+        { minWidth: 200, id: "country", header: [{ text: "Countryddddd" }] },
         { minWidth: 125, id: "population", header: [{ text: "Population" }] },
         {
           minWidth: 125,
