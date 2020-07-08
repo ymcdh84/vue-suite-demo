@@ -4,8 +4,8 @@
   "homepage": "https://github.com/DHTMLX/vue-suite-demo",
   "private": true,
   "scripts": {
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
+    "start": "start-storybook -p 6006 -s public",
+    "build": "build-storybook -s public",
     "prettier": "prettier --write */**/*.{js,html,css,vue}",
     "deploy": "gh-pages -d storybook-static"
   },
