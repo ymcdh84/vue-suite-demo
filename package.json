@@ -7,7 +7,7 @@
     "start": "start-storybook -p 6006 -s public",
     "build": "build-storybook -s public",
     "prettier": "prettier --write */**/*.{js,html,css,vue}",
-    "deploy": "build -d storybook-static"
+    "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
     "@mdi/font": "^5.3.45",
